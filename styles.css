@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("Background.png");
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  position: fixed;
+  isolation: isolate;
+  width: 100%;
+ 
+  margin-inline: auto;
+ 
+}
+
+.nav_header {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.nav_logo  {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(44, 43, 43);
+}
+
+.nav_logo img {
+  display: flex;
+  width: 40px;
+}
+
+
+.nav_links {
+  position: absolute;
+  top: 5px;
+  right: 67px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 2rem;
+  padding: 1rem;
+  }
+
+
+.nav_links a {
+  font-size: 1.2rem;
+  color:rgb(43, 39, 39);
+}
+
+.nav_links a:hover {
+  color: #e22d2d;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.header_container {
+  margin-left: 60PX;
+  padding-block: 5rem 2rem;
+  padding-inline: 1rem;
+  display: grid;
+  gap: 2rem;
+}
+
+
+.header_content h2 {
+  position: relative;
+  margin-left: 17px;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #3b2f33;
+  
+}
+
+.header_content h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  color: rgb(255, 247, 247);
+  line-height: 5rem;
+}
+
+.h1_span-1 {
+  font-size: 4rem;
+  color: #ff0147;
+}
+
+.h1_span-2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header_content p {
+  margin-bottom: 2rem;
+  margin-right: 8px;
+  color:#141414;
+}
+
+.header_content .btn {
+  padding: 0.75rem 1.5rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color:white;
+  background-color: #ff0147;
+  border-radius: 5rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.header_content .btn:hover {
+  color: #ff0147;
+  background-color: transparent;
+}
+
+.socials {
+  padding-block: 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content:left;
+  gap: 1rem;
+}
+
+.socials a {
+  font-size: 1.5rem;
+  color:#d1d5db;
+}
+
+.socials a:hover {
+  color: #ff0147;
+}
+
+
+
